@@ -24,7 +24,7 @@ class ColorFormatter(logging.Formatter):
         return super().format(record)
 
 
-def setup_logger(name: str = "api_parser", log_file: str = "api_parser.log") -> logging.Logger:
+def setup_logger(name: str = "logger", log_file: str = "api_parser.log") -> logging.Logger:
     """Создаёт и настраивает логгер"""
 
     logger = logging.getLogger(name)
