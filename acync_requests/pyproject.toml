@@ -10,15 +10,15 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [
-    { name = "Anton Didenko", email = "youremail@example.com" }
+    { name = "Anton Didenko", email = "didenk085.2014@gmail.com" }
 ]
 dependencies = [
     "httpx>=0.28.0"
 ]
 keywords = ["async", "requests", "http", "httpx", "aiohttp", "python"]
 
-# Optional but nice to have (shows up on PyPI)
 [project.urls]
-Homepage = "https://github.com/your_username/async_requests"
-Repository = "https://github.com/your_username/async_requests"
-Issues = "https://github.com/your_username/async_requests/issues"
+Homepage = "https://github.com/Anton-Di/my_libs/tree/main/async_requests"
+Repository = "https://github.com/Anton-Di/my_libs"
+Issues = "https://github.com/Anton-Di/my_libs/issues"
+

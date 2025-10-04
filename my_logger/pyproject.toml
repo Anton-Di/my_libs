@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-logger"
+version = "0.1.0"
+description = "Simple colorized logger with file and console handlers."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Anton Didenko", email = "didenk085.2014@gmail.com" }
+]
+dependencies = [
+    "colorama>=0.4.6"
+]
+keywords = ["logger", "logging", "color", "console", "file", "python"]
+
+[project.urls]
+Homepage = "https://github.com/Anton-Di/my_libs/tree/main/my_logger"
+Repository = "https://github.com/Anton-Di/my_libs"
+Issues = "https://github.com/Anton-Di/my_libs/issues"
